@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+    border:none
+}
+
+body{
+    background-color: #8109d0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+button{
+    outline: none;
+    border:none
+}
+
+.form{
+    background-color: #ffff;
+    border-radius: 3%;
+    height: 450px;
+    width: 400px;  
+    padding: 5px;    
+    text-align: center;
+    border-radius: 10px;
+}
+
+.titulo{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+.login>input{
+    width: 80%;
+    display: inline-block;
+    transition: all .3s ease-out;
+}
+
+.cpf,
+.senha{
+    border-bottom: dotted #A020F0 1px;
+    font-size: 15px;
+}
+
+.botao{
+    margin-top: 80px;
+    background: #ffffff34;
+    border: solid 1px #D3D3D3; 
+    padding: 25px 105px;     
+    font-size: 13px;
+    color: #D3D3D3;
+    background-color: #ffffff;   
+    margin-bottom: 20px; 
+}
+
+.logo{
+    position: fixed;
+    left:0pt;
+    top:0pt;
+}
+
+.teste,
+.teste2{
+    text-decoration: none;
+    color: #BA55D3;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.teste:hover,
+.teste2:hover{
+    color: black;
+}
